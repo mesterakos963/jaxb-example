@@ -3,6 +3,7 @@ package legoset;
 import jaxb.JAXBHelper;
 
 import java.net.URL;
+import java.time.Year;
 import java.util.ArrayList;
 import java.util.Set;
 import java.lang.String;
@@ -15,6 +16,7 @@ public class Main {
         legoSet.setTheme("StarWars");
         legoSet.setSubtheme("Solo");
         legoSet.setPieces(519);
+        legoSet.setYear(Year.of(2018));
         legoSet.setTags(Set.of("Starfighter", "Stormtrooper", "Star Wars", "Solo"));
 
         ArrayList<Minifig> minifigs = new ArrayList<>();
